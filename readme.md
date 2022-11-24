@@ -18,11 +18,10 @@ let data = [
 f id: 2, level: 'B', rate: 3 ],
 [ id: 3, level: 'A', rate: 4 ],
 [ id: 4, level: "C', rate: 2 ],
-[ id
-5, level: 'A', rate: 1 ],
+[ id: 5, level: 'A', rate: 1 ],
 ];
 let result a data
-.filter((item) => item. level a== 'Al)
+.filter((item) => item. level === 'Al)
 .reduce((acc, item) => acc t item.rate, O)
 console.log(result);   
 ```
